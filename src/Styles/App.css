@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  background: #004223;
+  background-image: url("homepagecover.jpg");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1, h3, h4, p{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+button{
+  background: #004223;
+  color: white;
+  border-radius: 5px;
+  height: 100px;
+  width: 200px;
+}
+
+a{
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.navBar{
+  background: white;
+  height: 150px;
+  padding: 25px;
+}
+
+.couponBanner{
+
+  height: 250px;
+  width: 50%;
+  background: white;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  margin: 50px 25%;
+  padding: 50px;
+}
+
+#products{
+  display: flex;
+  justify-content: space-around;
+  background: #004223;
+  color: black;
+  height: 500px;
+}
+
+#productInfo{
+  margin-top: 250px;
+}
+
+.product1{
+  margin-top: 50px;
+  background-image: url("sleepingbag.jpeg");
+  background-repeat: no-repeat;
+}
+
+.product2{
+  margin-top: 50px;
+  background-image: url("campstove.jpeg");
+  background-repeat: no-repeat;
+}
+
+.product3{
+  margin-top: 50px;
+  background-image: url("tent.jpeg");
+  background-repeat: no-repeat;
+}
