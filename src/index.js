@@ -24,12 +24,12 @@ ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
       <Switch>
-        <Route path="/" component={Home} />
         <Route path="/About" component={About} />
         <Route path="/Contact" component={Contact}/>
         <Route path="/CampingNeeds" component={CampingNeeds}/>
         <Route path="/FishingTackle" component={FishingTackle}/>
         <Route path="/HikingGear" component={HikingGear}/>
+        <Route exact path="/Home" component={Home} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>

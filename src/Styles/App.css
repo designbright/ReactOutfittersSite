@@ -88,3 +88,39 @@ a{
   background-image: url("tent.jpeg");
   background-repeat: no-repeat;
 }
+
+.product4{
+  margin-top: 50px;
+  background-image: url("waterbottle.jpeg");
+  background-repeat: no-repeat;
+}
+
+.product5{
+  margin-top: 50px;
+  background-image: url("shoe.jpeg");
+  background-repeat: no-repeat;
+}
+
+.product6{
+  margin-top: 50px;
+  background-image: url("hikingpoles.jpeg");
+  background-repeat: no-repeat;
+}
+
+.product7{
+  margin-top: 50px;
+  background-image: url("fishingpole.jpeg");
+  background-repeat: no-repeat;
+}
+
+.product8{
+  margin-top: 50px;
+  background-image: url("fishingvest.jpeg");
+  background-repeat: no-repeat;
+}
+
+.product9{
+  margin-top: 50px;
+  background-image: url("waders.jpeg");
+  background-repeat: no-repeat;
+}
